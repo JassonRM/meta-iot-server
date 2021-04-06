@@ -4,7 +4,7 @@ logger "Starting IoT Server"
 
 logger "Starting GPIO manager"
 
-# do some work here. Mount rootfs as rw if needed.
+gpiomanager 
 
 logger "Starting HTTP server"
 

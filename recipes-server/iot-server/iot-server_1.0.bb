@@ -2,7 +2,7 @@ SUMMARY = "Initial boot script for IoT Server"
 DESCRIPTION = "Script to do any first boot init, started as a systemd service which removes itself once finished"
 LICENSE = "CLOSED"
 PR = "r3"
-DEPENDS = "gpio-manager webserver"
+RDEPENDS_{PN} = "gpiomanager webserver"
 
 SRC_URI =  " \
     file://initscript.sh \

@@ -1,7 +1,7 @@
 SUMMARY = "RaspberryPi IoT Frontend Server"
 DESCRIPTION = "Recipe for a RaspberryPi python webserver"
 LICENSE = "CLOSED"
-DEPENDS = "python3"
+RDEPENDS_{PN} = "python3"
 
 PV = "1.0+git${SRCPV}"
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
