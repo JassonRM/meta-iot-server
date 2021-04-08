@@ -6,10 +6,9 @@ logger "Starting HTTP server"
 cd /webserver
 python3 ./server.py &
 
+sleep 5
+
 logger "Starting GPIO manager"
-gpiomanager 
+gpiomanager &
 
 logger "IoT Server running"
-
-
-
